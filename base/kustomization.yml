@@ -4,6 +4,6 @@ namespace: dev
 commonLabels:
   app: web
 resources:
-#- ng.yml
-#- ng-svc.yml
+- ng.yml
+- ng-svc.yml
 - dev-ns.yml
