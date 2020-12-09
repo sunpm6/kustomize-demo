@@ -7,5 +7,4 @@ spec:
   - port: 80
     protocol: TCP
     targetPort: 80
-    nodePort: 30002
-  type: NodePort
+    nodePort: 30010
