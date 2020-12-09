@@ -4,6 +4,6 @@ namespace: dev
 
 bases:
 - ../base/
-patchesStrategicMerge:
-  - ng-replica-patch.yml
+#patchesStrategicMerge:
+#  - ng-replica-patch.yml
 #  - ng-svc-portpatch.yml
