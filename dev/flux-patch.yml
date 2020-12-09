@@ -12,5 +12,5 @@ spec:
       $setElementOrder/containers:
       - name: nginx
       containers:
-      - image: nginx:1.18-alpine-perl
+      - image: nginx:1.19.5
         name: nginx
