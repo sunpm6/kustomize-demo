@@ -7,3 +7,4 @@ bases:
 patchesStrategicMerge:
   - ng-replica-patch.yml
   - ng-svc-portpatch.yml
+  - ng-image-patch.yml
