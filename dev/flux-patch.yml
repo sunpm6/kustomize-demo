@@ -1,1 +1,16 @@
-
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  annotations:
+    flux.weave.works/automated: "true"
+  name: web
+  namespace: dev
+spec:
+  template:
+    spec:
+ #     $setElementOrder/containers:
+  #    - name: podinfod
+      containers:
+      - image: nginx:1.19.5
+        name: nginx
