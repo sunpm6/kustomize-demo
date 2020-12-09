@@ -2,8 +2,8 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  annotations:
-    flux.weave.works/automated: "true"
+  #annotations:
+   # flux.weave.works/automated: "true"
   name: web
   namespace: dev
 spec:
