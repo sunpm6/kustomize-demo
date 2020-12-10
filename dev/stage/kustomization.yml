@@ -3,7 +3,7 @@ kind: Kustomization
 namespace: dev
 
 bases:
-- ../base/
+- ../../base/
 patchesStrategicMerge:
   - ng-replica-patch.yml
   - ng-svc-portpatch.yml
