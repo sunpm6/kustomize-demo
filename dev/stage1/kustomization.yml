@@ -9,5 +9,5 @@ patchesStrategicMerge:
         # - ng-svc-portpatch.yml
   - ng-image-patch.yml
 
-resources:
-- dev1-ns.yml
+#resources:
+#- dev1-ns.yml
